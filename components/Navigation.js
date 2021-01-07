@@ -16,7 +16,7 @@ export const TopNavigation = props => (
         size={24}
         color="#fff"
       /></TouchableOpacity>
-    <Album>Album</Album>
+    <Album>Fat of the land</Album>
     <TouchableOpacity
       accessible={true}
       accessibilityLabel="More options"

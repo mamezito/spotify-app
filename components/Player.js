@@ -6,8 +6,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 const Player = props => (
   <PlayerContainer>
-    <Song>Song</Song>
-    <Artist>Artist</Artist>
+    <Song>Mindfields</Song>
+    <Artist>Prodigy</Artist>
     <ProgressBar />
     <TimeFrame>
       <Time>0:00</Time>
