@@ -16,7 +16,7 @@ export const TopNavigation = props => (
         size={24}
         color="#fff"
       /></TouchableOpacity>
-    <Text>Playing artist</Text>
+    <Album>Album</Album>
     <TouchableOpacity
       accessible={true}
       accessibilityLabel="More options"
@@ -56,6 +56,11 @@ export const BottomNavigation = props => (
 );
 
 BottomNavigation;
+
+const Album = styled.Text`
+color:white;
+font-size:12px;
+`;
 
 
 const TopNavigationContainer = styled.View`
